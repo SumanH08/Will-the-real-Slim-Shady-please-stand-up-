@@ -1,0 +1,7 @@
+#wrapper {
+  position: fixed;
+  width: 200px;
+  top: 0;
+  right: 0;
+  background-color: lightsalmon;
+}

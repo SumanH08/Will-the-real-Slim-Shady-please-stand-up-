@@ -1,0 +1,21 @@
+{
+  "name": "Standup Timer",
+  "version": "1.0",
+  "description": "Build a standup timer!",
+  "permissions": ["declarativeContent", "activeTab", "storage"],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "page_action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "images/timer-icon.png",
+      "32": "images/timer-icon.png",
+      "48": "images/timer-icon.png",
+      "128": "images/timer-icon.png"
+    }
+  },
+  "options_page": "settings.html",
+  "manifest_version": 2
+}
