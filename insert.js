@@ -3,3 +3,5 @@ document.body.appendChild(div);
 div.innerText = "test123";
 
 div.id = "wrapper";
+
+/* */

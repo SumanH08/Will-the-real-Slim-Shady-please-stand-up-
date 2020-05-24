@@ -5,3 +5,8 @@
   right: 0;
   background-color: lightsalmon;
 }
+
+.remove {
+  color: red;
+  cursor: pointer;
+}

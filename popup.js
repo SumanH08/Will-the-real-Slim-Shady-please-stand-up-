@@ -7,7 +7,7 @@ settingsButton.onclick = function (element) {
 let startButton = document.getElementById("start");
 startButton.onclick = function (element) {
   let color = element.target.value;
-  chrome.storage.sync.get({ default_time: "120" }, function (result) {
+  chrome.storage.local.get({ default_time: "120" }, function (result) {
     startButton.innerText = result.default_time;
   });
   chrome.tabs.executeScript({
